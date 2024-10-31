@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  background-color: rgba(235,235,235,0.8);
+  
+}
+
+.sidebar {
+  background-color: rgba(206, 198, 198, 0.534);
+  width: 200px;
+  height: 100vh;
+  padding: 20px;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  
+}
+
+.app-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  background-color: rgb(235,235,235);
+  border-radius: 8px;
+}
+
+.app-header h1 {
+  padding: 8px 16px;  
+  
+}
+
+.driver-section {
+  background-color: rgb(235,235,235);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.driver-search-add {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 50%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.add-driver-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.driver-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.driver-table th, .driver-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.driver-table th {
+  background-color: #f4f4f4;
+  text-align: left;
+}
+
+.add-driver-form {
+  margin-top: 20px;
+}
+
+.add-driver-form div {
+  margin-bottom: 15px;
+}
+
+.add-driver-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.add-driver-form input, .add-driver-form select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.add-driver-form button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.msg-resp-db{
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 15px;
+}
